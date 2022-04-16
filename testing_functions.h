@@ -20,10 +20,10 @@ int test3() {
 int test4();
 
 int test4() {
-  int i = 0;
+  int i;
 
   // If i is less than 10, then do i + 1, and do anything in the loop, after that its just repeating until the condition (i < 10) is false.
-  for (i < 10; i++) {
+  for (i = 0; i < 10; i++) {
     // printf ("%d\n", i);
   }
   return i;

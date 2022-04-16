@@ -116,7 +116,7 @@ int main() {
   if (num2 = 9) {
     printf ("Everything went as expected in the function test4, for loop\n");
   } else {
-    printf ("Something went wrong in the function test4, for loop - i(%d)\n", i);
+    printf ("Something went wrong in the function test4, for loop - num2(%d)\n", num2);
   }
 
  return 0;
