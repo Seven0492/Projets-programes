@@ -100,9 +100,13 @@ int main() {
   return 0;
 
 
+  // test
+  main2
+
+
 }
 
-// I am experimenting with this, I don't know what I am doing here yet
-// void main2(main == 0) {
-  // printf ("This test program should have been run to the end\n");
-// }
+ // I am experimenting with this, I don't know what I am doing here yet
+ void main2(main == 0) {
+   printf ("This test program should have been run to the end\n");
+ }
