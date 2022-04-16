@@ -5,4 +5,4 @@ I wanted to understand github better and share it conveniently with others witho
 
 Plain and direct, or do you prefer poetry?
 
-# This repo is under a GPL license, so i can't sue you if you copy me :P
+ // This repo is under a GPL license, so i can't sue you if you copy me :P
