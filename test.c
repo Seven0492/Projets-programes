@@ -48,11 +48,11 @@ int main() {
   int try_it = 1;
 
   if (try_it == 1) {
-    printf ("Success!\n");
+    printf ("Success!\n\n");
   } else if (try_it < 1) {
-    printf ("Success, kind of\n");
+    printf ("Success, kind of\n\n");
   } else {
-    printf ("Something weird happened, but I'm not smart enough to know what - try_it(%d)\n", try_it);
+    printf ("Something weird happened, but I'm not smart enough to know what - try_it(%d)\n\n", try_it);
   }
 
 
@@ -63,19 +63,23 @@ int main() {
   char second_name[] = "Like I would tell you second";
 
   /* Pay attention to this possible example of a misunderstanding, this is exactly how NOT to do it */
+  printf ("Example of a misunderstanding: \n\n");
+
   if (first_name == "Charles, you?" && second_name == "James, you?") {
-    printf ("This goes against my example if this works/prints\n");
+    printf ("This goes against my example if this works/prints\n\n");
   } else if (first_name == "Like I would tell you" && second_name == "James, you?") {
-    printf ("See? It can't be manipulated\n");
+    printf ("See? It can't be manipulated\n\n");
   } else if (first_name != "Like I would tell you" && second_name == "Jame, you?") {
-    printf ("Don't know what happened with first_name, but it shows weird shit happens if you modify a variable created with char *\n");
+    printf ("Don't know what happened with first_name, but it shows weird shit happens if you modify a variable created with char *\n\n");
   } else {
     printf ("I swear I don't know what's going on either!\n");
-    printf ("I wanted to use this for %c purposes, but it doesn't even work!\n", 'X');
+    printf ("I wanted to use this for %c purposes, but it doesn't even work!\n\n", 'X');
   }
 
 
   /* This is the GOOD example */
+  printf ("This is a good example: \n\n");
+
   int yes = 1;
   int age = 10;
   float exact_age = 10.3;
@@ -83,22 +87,26 @@ int main() {
 
   // strncmp is the secure version of strcmp apparently, which is used to compare or manipulate strings if I understood correctly
   if (yes == 1 && strncmp(time, "years", 5) == 0) {
-    printf ("I am now %d or exactly %f %s old! (I'm not, this is an example)\n", age, exact_age, time);
+    printf ("I am now %d or exactly %f %s old! (I'm not, this is an example)\n\n", age, exact_age, time);
   } else if (strncmp(time, "years", 5) != 0) {
-    printf ("Your time unit is invalid\n");
+    printf ("Your time unit is invalid\n\n");
   } else {
-    printf ("%d doesn't equals 1 which = the int yes variable\n", yes);
+    printf ("%d doesn't equals 1 which = the int yes variable\n\n", yes);
   }
 
 
-  // test
+  // test of functions
+  printf ("Functions test: \n\n");
+  
   if (main2() == 0) {
     printf ("The main2 function went as expected\n");
   } else {
     printf ("The main2 function didn't work as expected\n");
   }
 
-  if (test3() == 4) {
+  int num = test3();
+
+  if (num == 4) {
     printf ("Everything went as expected in the test3 function\n");
   } else {
     printf ("Something went wrong in the test3 function\n");
