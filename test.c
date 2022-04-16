@@ -102,13 +102,13 @@ int main() {
 
   test3();
 
-  if (test3 == 5) {
+  if (test3 == 4) {
     printf ("Everything went as expected in the test3 function\n");
   } else {
     printf ("Something went wrong in the test3 function\n");
   }
- 
- 
+
+
  return 0;
 
 
