@@ -1,7 +1,14 @@
+// This website https://www.educba.com/hash-include-in-c/, goes into details what #include do.
+// For the printf function
 #include <stdio.h>
+// To manipulate strings, like using the strncmp function
 #include <string.h>
+// Example where a certain keywork equals something you defined, like an int, float, char or whatever variable, though I don't know how or if it can be changed or if I understood correctly, if not, raise an Issue on Github.
 #define FALSE 0
 #define TRUE 1
+// This is to be a reference to beginners in C programming language like me, and it is not made to be optimised, if you want optimised code go look at source code for small applications built from C. You'll probably learn a lot, I fixed the two-dimensional array, but if you still discover something wrong or think it could be better, alert it on the Issues section on Github.
+
+/* Here are the learning ressources I used, https://www.youtube.com/channel/UCJUmE61LxhbhudzUugHL2wQ, learn-c.org, codedamn.com, educba.com */
 
  // Ici, c'est pour tester tous les concepts que je connais
 
