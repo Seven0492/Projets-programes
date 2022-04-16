@@ -11,8 +11,6 @@
 #define BOOL char
 // This is to be a reference to beginners in C programming language like me, and it is not made to be optimised, if you want optimised code go look at source code for small applications built from C. You'll probably learn a lot, I fixed the two-dimensional array, but if you still discover something wrong or think it could be better, alert it on the Issues section on Github.
 
-/* Here are the learning ressources I used, https://www.youtube.com/channel/UCJUmE61LxhbhudzUugHL2wQ, learn-c.org, codedamn.com, educba.com */
-
  // Ici, c'est pour tester tous les concepts que je connais
 
  // English: Here, is to test every concept I learned so far
