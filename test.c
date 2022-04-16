@@ -89,6 +89,12 @@ int main() {
     printf ("%d doesn't equals 1 which = the int yes variable\n", yes);
   }
 
+  void test3() {
+    char * test2 = "test";
+    // strlen returns the length of the string to be passed as an argument
+    printf("%d\n", strlen(test2));
+  }
+
 
   return 0;
 
