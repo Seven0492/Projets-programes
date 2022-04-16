@@ -103,7 +103,7 @@ int main() {
 
  int test3(int test2 == "test") {
    char * test2 = "test";
-   strlen returns the length of the string to be passed as an argument
+   // strlen returns the length of the string to be passed as an argument
    printf("%d\n", strlen(test2));
    return strlen(test2);
  }
