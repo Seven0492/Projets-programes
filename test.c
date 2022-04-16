@@ -9,6 +9,7 @@
 #define TRUE 1
 // There are no boolean variables in C
 #define BOOL char
+int test3(char test2 == "test");
 // This is to be a reference to beginners in C programming language like me, and it is not made to be optimised, if you want optimised code go look at source code for small applications built from C. You'll probably learn a lot, I fixed the two-dimensional array, but if you still discover something wrong or think it could be better, alert it on the Issues section on Github.
 
 /* Here are the learning ressources I used, https://www.youtube.com/channel/UCJUmE61LxhbhudzUugHL2wQ, learn-c.org, codedamn.com, educba.com */
@@ -90,13 +91,6 @@ int main() {
     printf ("%d doesn't equals 1 which = the int yes variable\n", yes);
   }
 
-  // I'm not 'high-level' enough to do this, I'll come back to it, the example inside is still valid though
-  // void test3(test2 == "test") {
-    // char * test2 = "test";
-    // strlen returns the length of the string to be passed as an argument
-    // printf("%d\n", strlen(test2));
-  // }
-
 
   return 0;
 
@@ -106,3 +100,10 @@ int main() {
 
 
 }
+
+ int test3(int test2 == "test") {
+   char * test2 = "test";
+   strlen returns the length of the string to be passed as an argument
+   printf("%d\n", strlen(test2));
+   return strlen(test2);
+ }
