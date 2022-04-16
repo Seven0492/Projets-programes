@@ -96,7 +96,7 @@ int main() {
 
   // test of functions
   printf ("Functions test: \n\n");
-  
+
   if (main2() == 0) {
     printf ("The main2 function went as expected\n");
   } else {
@@ -111,6 +111,13 @@ int main() {
     printf ("Something went wrong in the test3 function\n");
   }
 
+  int num2 = test4();
+
+  if (num2 = 9) {
+    printf ("Everything went as expected in the function test4, for loop\n");
+  } else {
+    printf ("Something went wrong in the function test4, for loop - i(%d)\n", i);
+  }
 
  return 0;
 
