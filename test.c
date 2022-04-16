@@ -3,6 +3,7 @@
 #include <stdio.h>
 // To manipulate strings, like using the strncmp function
 #include <string.h>
+// Adds the main2 and test3 functions, go look at the testing_functions.h file in the repo ;)
 #include "testing_functions.h"
 // Example where a certain keywork equals something you defined, like an int, float, char or whatever variable, or even a funtion, though I don't know how or if it can be changed or if I understood correctly, if not, raise an Issue on Github.
 #define FALSE 0
