@@ -91,9 +91,6 @@ int main() {
   }
 
 
-  return 0;
-
-
   // test
   main2();
 
@@ -110,6 +107,9 @@ int main() {
   } else {
     printf ("Something went wrong in the test3 function\n");
   }
+ 
+ 
+ return 0;
 
 
 }
