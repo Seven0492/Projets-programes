@@ -92,17 +92,13 @@ int main() {
 
 
   // test
-  main2();
-
-  if (main2 == 0) {
+  if (main2() == 0) {
     printf ("The main2 function went as expected\n");
   } else {
     printf ("The main2 function didn't work as expected\n");
   }
 
-  test3();
-
-  if (test3 == 4) {
+  if (test3() == 4) {
     printf ("Everything went as expected in the test3 function\n");
   } else {
     printf ("Something went wrong in the test3 function\n");
