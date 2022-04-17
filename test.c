@@ -119,6 +119,12 @@ int main() {
     printf ("Something went wrong in the function test4, for loop - num2(%d)\n", num2);
   }
 
+  if (test5() == 10) {
+    printf ("The test5 function went as expected\n");
+  } else {
+    printf ("The test5 function didn't go as expected - test5(%d)\n", test5());
+  }
+
  return 0;
 
 
