@@ -1,4 +1,4 @@
-// If you don't know what ifndef does, browse this https://docs.github.com/en/get-started/quickstart/hello-world
+// If you don't know what ifndef does, browse this https://www.educba.com/sharp-ifndef-in-c/
 #ifndef TESTING_FUNCTIONS_H
 # define TESTING_FUNCTIONS_H
 
