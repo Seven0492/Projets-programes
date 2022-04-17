@@ -47,11 +47,11 @@ int test6();
 
 int test6() {
   int n;
-  for (n = 0; n < 9; n++) {
+  for (n = 0; n < 8; n++) {
 
     /* Check if n is odd */
     if (n % 2 == 1) {
-      /* Go back to the start of the while block */
+      /* Go back to the start of the for block */
       continue;
     }
     // printf ("This is an even number %d\n", n);
