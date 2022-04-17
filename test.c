@@ -125,6 +125,12 @@ int main() {
     printf ("The test5 function didn't go as expected - test5(%d)\n", test5());
   }
 
+  if (test6() == 8) {
+    printf ("The test6 function went as expectted\n");
+  } else {
+    printf ("The test6 function didn't go as expected - test6(%d)\n", test6());
+  }
+
  return 0;
 
 

@@ -43,4 +43,20 @@ int test5() {
   return n;
 }
 
+int test6();
+
+int test6() {
+  int n;
+  for (n = 0; n < 9; n++) {
+
+    /* Check if n is odd */
+    if (n % 2 == 1) {
+      /* Go back to the start of the while block */
+      continue;
+    }
+    // printf ("This is an even number %d\n", n);
+  }
+  return n;
+}
+
 #endif
