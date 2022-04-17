@@ -30,4 +30,17 @@ int test4() {
   return i;
 }
 
+int test5();
+
+int test5() {
+  int n;
+  while (1) {
+    n++;
+    if (n == 10 || n >= 10) {
+      break;
+    }
+  }
+  return n;
+}
+
 #endif
