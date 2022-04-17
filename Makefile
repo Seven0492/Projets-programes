@@ -21,8 +21,8 @@ cleanall:
 		-rm test.o
 		-rm test.exe
 # Create a new bin directory in the home directory and installs the executable in the new ~/bin directory.
-#install:
-#		-mkdir ~/bin
-#		cp test.exe ~/bin/test.exe
-#		-echo "export PATH="$"PATH:~/bin" >> ~/.bashrc
-#		-@echo "Done! Just reset the terminal and the next time you type 'test.exe' this executable will execute, it is in the ~/bin directory if you want to remove it"
+install:
+		-mkdir ~/bin
+		cp test.exe ~/bin/test.exe
+		-echo 'export PATH="$PATH":~/bin' >> ~/.bashrc
+		-@echo "Done! Just reset the terminal and the next time you type 'test.exe' this executable will execute, it is in the ~/bin directory if you want to remove it"
