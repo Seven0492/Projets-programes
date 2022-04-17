@@ -7,12 +7,12 @@ Plain and direct, or do you prefer poetry?
 
 # How to compile
 
-This is simple, you just need to type: make.
+This is simple, you just need to type the command "make" in the source code directory.
 
-After that there is two new files, test.o is garbage, so doing: make clean, will remove it.
+After that there is two new files, test.o is garbage, so doing: "make clean", will remove it.
 
-There are two other options too, make cleanall, to remove test.exe too,
-and make install, with no sudo permissions required, more info in the MAKE.md file.
+There are two other options too, "make cleanall", to remove test.exe too,
+and "make install" (This option will break your terminal, wait until I fix it), with no sudo permissions required, more info in the MAKE.md file.
 
 # License
 
