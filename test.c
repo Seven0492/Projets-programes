@@ -94,7 +94,7 @@ int main() {
   }
 
 
-  // test of functions
+  // test of functions, go into the testing_functions.h file to see what they do.
   printf ("Functions test: \n\n");
 
   if (main2() == 0) {
