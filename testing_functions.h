@@ -60,3 +60,5 @@ int test6() {
 }
 
 #endif
+
+EOF
