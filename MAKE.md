@@ -39,3 +39,7 @@ But there are three more options:
 
   It will open the "nano" text editor to edit the .bashrc file of your home directory.
   After that you just have to do what I said in the "3)." section.
+
+# That's it!
+
+Now you can do whatever you want with the binary executable
