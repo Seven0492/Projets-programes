@@ -5,6 +5,10 @@ I wanted to understand github better and share it conveniently with others witho
 
 Plain and direct, or do you prefer poetry?
 
+# Update
+
+I've recently switched to Python because C is too close to asm(assembly) for me to understand what I'm doing, might come back here again someday
+
 # How to compile
 
 This is simple, you just need to type the command "make" in the source code directory.
