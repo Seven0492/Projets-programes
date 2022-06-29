@@ -12,7 +12,7 @@ int test3();
 
 int test3() {
   char * test2 = "test";
-  // strlen returns the length of the string to be passed as an argument
+  // strlen returns the length of a string
   // printf("%d\n", strlen(test2));
   int test = (strlen(test2));
   return test;
@@ -36,7 +36,7 @@ int test5() {
   int n;
   while (1) {
     n++;
-    if (n == 10 || n >= 10) {
+    if (n >= 10) {
       break;
     }
   }

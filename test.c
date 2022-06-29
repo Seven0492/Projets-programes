@@ -51,7 +51,7 @@ int main() {
   } else if (try_it < 1) {
     printf ("Success, kind of\n\n");
   } else {
-    printf ("Something weird happened, but I'm not smart enough to know what - try_it(%d)\n\n", try_it);
+    printf ("Something weird happened, but I'm not smart enough to know what - try_it(%.3d)\n\n", try_it);
   }
 
 
@@ -68,7 +68,7 @@ int main() {
     printf ("This goes against my example if this works/prints\n\n");
   } else if (first_name == "Like I would tell you" && second_name == "James, you?") {
     printf ("See? It can't be manipulated\n\n");
-  } else if (first_name != "Like I would tell you" && second_name == "Jame, you?") {
+  } else if (first_name != "Like I would tell you" && second_name == "James, you?") {
     printf ("Don't know what happened with first_name, but it shows weird shit happens if you modify a variable created with char *\n\n");
   } else {
     printf ("I swear I don't know what's going on either!\n");
@@ -86,11 +86,15 @@ int main() {
 
   // strncmp is the secure version of strcmp apparently, which is used to compare or manipulate strings if I understood correctly
   if (yes == 1 && strncmp(time, "years", 5) == 0) {
-    printf ("I am now %d or exactly %f %s old! (I'm not, this is an example)\n\n", age, exact_age, time);
+    // When you add for example %1.4f,
+    // it will only show the first digit before the period
+    // and four digits after the period.
+    // %1d, the same principle, only the first digit is shown.
+    printf ("I am now %d or exactly %.1f %s old! (I'm not, this is an example)\n\n", age, exact_age, time);
   } else if (strncmp(time, "years", 5) != 0) {
     printf ("Your time unit is invalid\n\n");
   } else {
-    printf ("%d doesn't equals 1 which = the int yes variable\n\n", yes);
+    printf ("%3.2d doesn't equals 1 which = the int(yes) variable\n\n", yes);
   }
 
 
@@ -111,12 +115,10 @@ int main() {
     printf ("Something went wrong in the test3 function\n");
   }
 
-  int num2 = test4();
-
-  if (num2 = 9) {
+  if (test4() == 9) {
     printf ("Everything went as expected in the function test4, for loop\n");
   } else {
-    printf ("Something went wrong in the function test4, for loop - num2(%d)\n", num2);
+    printf ("Something went wrong in the function test4, for loop - num2(%d)\n", test4());
   }
 
   if (test5() == 10) {
