@@ -51,7 +51,7 @@ int main() {
   } else if (try_it < 1) {
     printf ("Success, kind of\n\n");
   } else {
-    printf ("Something weird happened, but I'm not smart enough to know what - try_it(%.3d)\n\n", try_it);
+    printf ("Something weird happened, but I'm not smart enough to know what - try_it(%d)\n\n", try_it);
   }
 
 
